@@ -28,7 +28,6 @@ const pinkShades = [
     document.body.style.backgroundColor = pinkShades[currentIndex];
     currentIndex = (currentIndex + 1) % pinkShades.length;
   }
-  
-  // Automatically change the background color every 2 seconds (2000 milliseconds)
+
   setInterval(animatePinkShades, 3000);
   
